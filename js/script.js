@@ -8,6 +8,8 @@ const discountOver65 = 0.6; //sconto over 65
 const discountMinor = 0.8;  //sconto minorenni
 
 const myButton = document.getElementById('myButton');
+const codeTrain = (Math.random() + 1).toString(36).substring(7);
+const carrozza = Math.floor(Math.random() * 10) + 1;
 
 let infoTicket = document.getElementById('infoTicket');
 
@@ -25,7 +27,10 @@ myButton.addEventListener('click', function(){
     else{
 
         document.getElementById('kmInput').innerHTML = kmValue;
-    
+        document.getElementById('codeTrain').innerHTML = codeTrain;
+        document.getElementById('carrozza').innerHTML = carrozza;
+
+        
         userName = document.getElementById('userName');
         userNameValue = userName.value;
         

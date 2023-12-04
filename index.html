@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="col-12 text-center mt-3">
-                                <button id="myButton" type="button">Calcola</button>
+                                <button class="bg-secondary text-white rounded-2" id="myButton" type="button">Calcola</button>
                             </div>
                         </div>
                     </form>
@@ -83,23 +83,41 @@
                    </div>
                    <div class="col-12">
                         <div class="row">
-                            <div class="col-5">
+                            <div class="col-4">
                                 <strong>Biglietto</strong>
                                 <div>
                                     Nome passegero: <span id="userNameInput"></span>
                                 </div>
                             </div>
-                            <div class="col-7">
-                                <div>
-                                    Km da percorrere: <span id="kmInput"></span>
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div>
+                                            Codice treno: 
+                                            <span id="codeTrain"></span>
+                                        </div>
+                                        <div>
+                                            Carrozza N°: 
+                                            <span id="carrozza"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            Km da percorrere: <span id="kmInput"></span>
+                                        </div>
+                                        <div>
+                                            Fascia età: <span id="ageUserInput"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="text-warning">
+                                            Prezzo totale del biglietto: 
+                                            <span id="price"></span>
+                                        </div>
+                                    </div>
+                                
                                 </div>
-                                <div>
-                                    Fascia età: <span id="ageUserInput"></span>
-                                </div>
-                                <div class="text-warning">
-                                    Prezzo totale del biglietto: 
-                                    <span id="price"></span>
-                                </div>
+                                
                             </div>
                         </div>
                    </div>
