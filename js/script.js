@@ -17,7 +17,7 @@ let optionAge;
 //Setto il mio bottone
 myButton.addEventListener('click', function(){
     
-
+    
     km = document.getElementById('km');
     kmValue = parseInt(km.value);
     
