@@ -17,7 +17,7 @@
 
         <!-- START MAIN -->
         <main>
-            <div class="container">
+            <div class="container mt-5">
                 <div class="form_container">
                     <h2 class="mb-4">
                         Calcola il prezzo del tuo biglietto
@@ -39,11 +39,16 @@
                                 </div>
                             </div>
                             <div class="col-6">
+                                <!-- OPTION -->
                                 <div>
                                     <div>
-                                        <label for="ageUser">Inserisci la tua età</label>
+                                        <label for="optionAge">Fascia di età</label>
                                     </div>
-                                    <input type="number" name="ageUser" id="ageUser">
+                                    <select name="scelta" id="optionAge">
+                                        <option value="minorenne">Minorenne</option>
+                                        <option value="maggiorenne">Maggiorenne</option>
+                                        <option value="over65">Over 65+</option>
+                                    </select>
                                 </div>
                                 <div>
                                     <div>
@@ -89,7 +94,7 @@
                                     Km da percorrere: <span id="kmInput"></span>
                                 </div>
                                 <div>
-                                    Età del passegero: <span id="ageUserInput"></span>
+                                    Fascia età: <span id="ageUserInput"></span>
                                 </div>
                                 <div class="text-warning">
                                     Prezzo totale del biglietto: 
